@@ -39,6 +39,7 @@ public class UserTest {
     public void testFind() {
         User user = userService.findOne(10);
         System.out.println("nickName : "+user.getNickName()+", email : "+user.getEmail());
+        System.out.println("test!");
     }
 
     @Test
